@@ -51,6 +51,29 @@ body {
   color: #e2c15e;
 }
 
+.Fecha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: Bolder;
+  font-size: 200%;
+  gap: 20px;
+  margin-top: 30px;
+}
+.division2{
+  text-align: left;
+}
+.division3{
+  text-align: right;
+}
+.division{
+  width: 4px;
+  height: 50px;
+  align-items: center;
+  background-color: blue;
+}
 
 /* Otros textos */
 .palabras3, .palabras4 {
