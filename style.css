@@ -1,35 +1,46 @@
-.title{
-    margin: 15px;
-}
-body{
-    margin: 10px;
-    background-image: url(elegant_hand_painted_floral_watercolour_background_2804.jpg);
-}
-.backg{
-    background-image: url(elegant_hand_painted_floral_watercolour_background_2804.jpg);
+body {
+  margin: 10px;
+  background-image: url(elegant_hand_painted_floral_watercolour_background_2804.jpg);
   background-size: cover;
-  text-align: center;
-  }
-  .html{
-  padding: 3px 10%;
-  border: powderblue 5px double;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-.bau2{
-  font-family: "Parisienne", cursive;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-size:300%;
-  text-align: center;
-  color: #e2c15e;
-}
-.bau3{
+  background-position: center;
   font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 200%;
+  color: #333;
+}
+
+/* Contenedor general para centrar y padding */
+.palabras {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
   text-align: center;
+}
+
+/* Titulos principales */
+.bau2 {
+  font-family: "Parisienne", cursive;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #e2c15e;
+  display: inline-block;
+  transform: rotate(-5deg);
+  animation: arco 3s infinite alternate;
+  margin-bottom: 10px;
+}
+
+@keyframes arco {
+  0% { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
+}
+
+.bau3 {
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.nombre {
+  margin: 40px 0 30px;
 }
 .nombre2{
   font-family: "Parisienne", cursive;
@@ -39,107 +50,105 @@ body{
   text-align: center;
   color: #e2c15e;
 }
-.palabras2{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 185%;
-  text-align: center;
-}
-.palabras3{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 150%;
-  text-align: center;
-}
-.palabras4{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 150%;
-  text-align: center;
-}
-.palabras5{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 185%;
-  text-align: center;
-}
-.fecha2{
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: Bolder;
-  font-size: 275%;
-  text-align: center;
-}
-.hora{
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: Bolder;
-  font-size: 275%;
-  text-align: center;
-}
-.lugar2{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-size: 245%;
-  text-align: center;
-}
-.iframe{
-  width: 100%;
-  height: 100%;
-  align-items: center;
-}
-.direrecp2{
-  font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 225%;
-  text-align: center;
-}
-.no{
-  font-family: "Parisienne", cursive;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-size: 400%;
-  text-align: center;
-  color: #3ca4ec;
+
+
+/* Otros textos */
+.palabras3, .palabras4 {
+  font-size: 1.5rem;
+  margin: 5px 0;
 }
 
-.reserv{
-   font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 225%;
-  text-align: center;
+.fecha2, .hora {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bolder;
+  font-size: 2.2rem;
+  margin: 5px 0;
 }
-.reserv2{
-   font-family: "Red Hat Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-size: 225%;
-  text-align: center;
+
+.lugar2 {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 15px 0;
 }
-img{
-  width: 50px;
-  height: 50px;
+
+.no {
+  font-family: "Parisienne", cursive;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  color: #3ca4ec;
+  margin: 30px 0 20px;
+}
+
+.direrecp2 {
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+
+.reserv, .reserv2 {
+  font-size: 1.7rem;
+  margin: 8px 0;
+}
+
+/* Imagen WhatsApp */
+.reser img {
+  width: 60px;
+  height: 60px;
+  margin: 15px auto 0;
   display: block;
-  margin: auto;
 }
-.direcIgle{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/* Iframes responsive - envoltorio para controlar tamaño */
+.direcIgle, .map2 {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  margin: 0 auto 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.direcIgle iframe, .map2 iframe {
   width: 100%;
   height: 100%;
+  border: none;
 }
-.map2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+
+/* Media Queries para móviles */
+@media screen and (max-width: 480px) {
+  .bau2 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+  }
+
+  .bau3 {
+    font-size: 1.4rem;
+  }
+
+  .palabras3, .palabras4 {
+    font-size: 1.2rem;
+  }
+
+  .fecha2, .hora {
+    font-size: 1.6rem;
+  }
+
+  .lugar2 {
+    font-size: 1.4rem;
+  }
+
+  .no {
+    font-size: 2.5rem;
+  }
+
+  .direrecp2, .reserv, .reserv2 {
+    font-size: 1.3rem;
+  }
+
+  .direcIgle, .map2 {
+    height: 220px;
+  }
+
+
+
 }
