@@ -1,0 +1,145 @@
+.title{
+    margin: 15px;
+}
+body{
+    margin: 10px;
+    background-image: url(elegant_hand_painted_floral_watercolour_background_2804.jpg);
+}
+.backg{
+    background-image: url(elegant_hand_painted_floral_watercolour_background_2804.jpg);
+  background-size: cover;
+  text-align: center;
+  }
+  .html{
+  padding: 3px 10%;
+  border: powderblue 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.bau2{
+  font-family: "Parisienne", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size:300%;
+  text-align: center;
+  color: #e2c15e;
+}
+.bau3{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 200%;
+  text-align: center;
+}
+.nombre2{
+  font-family: "Parisienne", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 250%;
+  text-align: center;
+  color: #e2c15e;
+}
+.palabras2{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 185%;
+  text-align: center;
+}
+.palabras3{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 150%;
+  text-align: center;
+}
+.palabras4{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 150%;
+  text-align: center;
+}
+.palabras5{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 185%;
+  text-align: center;
+}
+.fecha2{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: Bolder;
+  font-size: 275%;
+  text-align: center;
+}
+.hora{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: Bolder;
+  font-size: 275%;
+  text-align: center;
+}
+.lugar2{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 245%;
+  text-align: center;
+}
+.iframe{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.direrecp2{
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 225%;
+  text-align: center;
+}
+.no{
+  font-family: "Parisienne", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size: 400%;
+  text-align: center;
+  color: #3ca4ec;
+}
+
+.reserv{
+   font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 225%;
+  text-align: center;
+}
+.reserv2{
+   font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-size: 225%;
+  text-align: center;
+}
+img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+.direcIgle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.map2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
