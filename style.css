@@ -83,7 +83,7 @@ body {
   Font-size: 1.1rem;
   font-weight:700;
   Color: gray;
-  Letter-spacing:o.5px;
+  Letter-spacing:0.5px;
 }
 .division3 h3 span{
   font-weight:500;
@@ -192,7 +192,4 @@ body {
   .direcIgle, .map2 {
     height: 220px;
   }
-
-
-
 }
