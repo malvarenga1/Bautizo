@@ -92,7 +92,7 @@ body {
 .division{
   width: 4px;
   height: 50px;
-  align-items: center;
+  align-self: stretch;
   background-color: blue;
 }
 
