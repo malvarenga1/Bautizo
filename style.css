@@ -51,52 +51,58 @@ body {
   color: #e2c15e;
 }
 
-.Fecha{
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: Bolder;
-  font-size: 200%;
-  gap: 40px;
-  margin-top: 40px 0 ;
-}
-.division2{
-  text-align: center;
-}
-.division2 h3{
-  margin:0;
-  Font-size: 1.1rem;
-  font-weight:700;
-  Color: gray;
-  Letter-spacing:0.5px;
-}
-.division2 h3 span{
-  font-weight:500;
-}
-.division3{
-  text-align: center;
-}
-.division3 h3{
-  margin:0;
-  Font-size: 1.1rem;
-  font-weight:700;
-  Color: gray;
-  Letter-spacing:0.5px;
-}
-.division3 h3 span{
-  font-weight:500;
-}
+ .fecha{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    /* ancho fijo opcional: */
+    /* width:420px; */
+    margin:40px auto;
+    font-family:'Rajdhani', sans-serif;
+  }
 
-.division{
-  width: 4px;
-  height: 50px;
-  align-self: stretch;
-  background-color: blue;
-}
+  /* ----- CADA COLUMNA ----- */
+  .col{
+    padding:0 28px;          /* aire lateral */
+    text-align:center;
+  }
+  /* línea vertical entre columnas (solo a partir de la 2.ª) */
+  .col + .col{
+    border-left:2px solid #111;
+  }
 
-/* Otros textos */
+  /* ----- COLUMNAS LATERALES (pseudo‑elementos = líneas horizontales) ----- */
+  .division1{
+    position:relative;
+  }
+  .division1::before,
+  .division1::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    height:1px;
+    background:#111;
+  }
+  .division1::before{ top:-14px; }   /* línea superior */
+  .division1::after { bottom:-14px;} /* línea inferior */
+
+  .dia,
+  .hora{           
+    font-size:28px;
+    margin:0;
+  }
+  .mes{            
+    font-size:34px;
+    margin:0;
+  }
+  .numero{        
+    font-size:72px;
+    color:#00BFFF;
+    margin:0;
+    line-height:0.8;
+  }
+
 .palabras3, .palabras4 {
   font-size: 1.5rem;
   margin: 5px 0;
